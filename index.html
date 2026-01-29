@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waiting Room</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body style="display: inline-grid; height: 90vh; width: -webkit-fill-available; grid-template-rows: 1fr 15fr 1fr; grid-template-columns: 1fr 15fr 1fr;">
+    <script src="timer.js" defer></script>
+    <script src="background.js" defer></script>
+    <script src="main.js" defer></script>
+
+    <div class="content" style="display:flex; flex-flow: column; text-align: center; grid-column: 2; grid-row: 2; align-items: center; justify-content: center; row-gap: 10px;">
+        <h2>Waiting Room</h2>
+
+        <div class="timer-section" id="timerDisplay">
+            <p>Time remaining:</p>
+            <div id="timeRemaining">Loading...</div>
+        </div>
+
+        <div>
+            <button class="date-btn" id="dateBtn">Выбрать дату и время</button>
+        </div>
+        
+        <div class="input-group">
+            <input type="url" class="url-input" placeholder="Enter background image URL" id="bgUrlInput">
+            <button class="set-bg-btn" id="setBgBtn">Set Background</button>
+        </div>
+    </div>
+</body>
+</html>
