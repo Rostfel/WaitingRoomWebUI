@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
         body.style.backgroundImage = `url('${savedSettings.backgroundUrl}')`;
         document.getElementById('bgUrlInput').placeholder = savedSettings.backgroundUrl;
     } else {
-        body.style.backgroundImage = `url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80')`;
+        body.style.backgroundImage = `url('https://www.mensjournal.com/.image/w_1200,h_675,g_auto,c_fill/NDI6MDAwMDAwMDAxMDE4ODg3/resident-evil-requiem-key-art.jpg')`;
     }
 
     // Background setter
