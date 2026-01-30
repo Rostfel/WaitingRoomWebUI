@@ -1,0 +1,14 @@
+{
+  "name": "waitingroomwebui",
+  "version": "1.0.0",
+  "description": "Simple timer for waiting any event, it saves in local storage so you can refresh page.",
+  "main": "main.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.58.0",
+    "@types/node": "^25.1.0"
+  }
+}
